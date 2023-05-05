@@ -1,0 +1,8 @@
+.success {
+    width: 250px;
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    font-family: 'Open Sans',Arial,sans-serif;
+    text-align: center;
+}

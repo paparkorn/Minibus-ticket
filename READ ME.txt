@@ -1,0 +1,32 @@
+# Bus Reservation System Website
+
+## Overview
+The Bus Reservation System Website is an online platform that simplifies the bus ticket booking process for passengers and streamlines fleet and schedule management for bus operators. The project aims to replace traditional, time-consuming reservation methods with a user-friendly, digital alternative.
+
+## Features
+* Search for available buses based on the desired route, date, and time.
+* Select preferred seat types, such as low class, middle class, and high class.
+* Secure online payments with credit card.
+* Print tickets or access them using a reference number in case of loss.
+* User registration and login system.
+* Admin panel for bus operators to manage fleet, schedules, and ticket booking data.
+
+## Technologies Used
+* PHP
+* CSS
+* JavaScript
+* SQL
+* Visual Studio Code
+* XAMPP
+* Brighton domain (for server)
+
+## Acknowledgements
+This project was developed as part of the [Your Course Name] at [Your University Name]. Special thanks to [Your Supervisor Name] for their guidance and support.
+
+## Username and password for admin
+username : admin
+password : password
+
+http://pn133.brighton.domains/ci601/web/login.php
+
+website for minibus

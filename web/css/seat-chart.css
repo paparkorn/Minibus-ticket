@@ -1,0 +1,334 @@
+*{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.login-button {
+    position: relative;
+    left: 1022px;
+}
+
+.my-footer {
+    position: relative;
+    color: white;
+    top: 360px;
+    background-color: black;
+    width: 100%;
+}
+
+.body_style {
+    background-image: url("https://www.arum.co.uk/wp-content/uploads/2013/11/site-background.jpg");
+    background-repeat: no-repeat;
+}
+
+.front-indicator {
+    width: 145px;
+    margin: 5px 32px 15px 32px;
+    background-color: #f6f6f6;
+    color: #adadad;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.wrapper {
+    width: 100%;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+}
+
+.booking-details {
+    float: left;
+    text-align: left;
+    margin-left: 35px;
+    font-size: 12px;
+    position: relative;
+    height: 470px;
+}
+
+.booking-details h2 {
+    margin: 25px 0 20px 0;
+    font-size: 28px;
+}
+
+.booking-details h3 {
+    margin: 5px 5px 0 0;
+    font-size: 22px;
+}
+
+div.seatCharts-cell {
+    color: #182c4e;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+}
+
+div.seatCharts-seat {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+div.seatCharts-row {
+    height: 350px;
+}
+
+div.seatCharts-seat.available {
+    background-color: #b9dea0;
+}
+
+div.seatCharts-seat.available.first-class {
+    /* 	background: url(vip.png); */
+    background-color: #3a78c3;
+    /* vip color!!!!!!!!!!!!!*/
+}
+
+div.seatCharts-seat.focused {
+    background-color: #76B474;
+}
+
+div.seatCharts-seat.selected {
+    background-color: #e6cac4;
+}
+
+div.seatCharts-seat.unavailable {
+    background-color: #472b34;
+}
+
+div.seatCharts-container {
+    border-right: 1px dotted #adadad;
+    /* string in the middle!!!!!!!!*/
+    width: 200px;
+    padding: 20px;
+    float: left;
+}
+
+div.seatCharts-legend {
+    padding-left: 0px;
+    position: absolute;
+    bottom: 16px;
+}
+
+ul.seatCharts-legendList {
+    padding-left: 0px;
+}
+
+span.seatCharts-legendDescription {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.checkout-button {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#selected-seats {
+    max-height: 90px;
+    overflow-y: scroll;
+    overflow-x: none;
+    width: 170px;
+}
+
+div.seatCharts-container {
+    /*min-width: 700px;*/
+}
+
+div.seatCharts-cell {
+    height: 25px;
+    width: 20px;
+    margin: 3px;
+    float: left;
+    text-align: center;
+    outline: none;
+    font-size: 13px;
+    line-height: 15px;
+    color: blue;
+}
+
+div.seatCharts-seat {
+    background-color: green;
+    color: white;
+    /* numbers of seats!!!!!!!!!!*/
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: default;
+}
+
+div.seatCharts-seat:focus {
+    border: none;
+}
+
+/*
+.seatCharts-seat:focus {
+	outline: none;
+}
+*/
+
+div.seatCharts-space {
+    background-color: #eaeaea;
+    /*WHITESPASEC !!!!!!!*/
+}
+
+div.seatCharts-row {
+    height: 50px;
+}
+
+div.seatCharts-row:after {
+    clear: both;
+}
+
+div.seatCharts-seat.selected {
+    background-color: aqua;
+    /*when select!!!!!!!!!!!*/
+}
+
+div.seatCharts-seat.focused {
+    background-color: #6db131;
+    /* color of focus!!!!!!!!!!*/
+}
+
+div.seatCharts-seat.available {
+    background-color: green;
+    /*color of seats!!!!!!!!!*/
+}
+
+div.seatCharts-seat.unavailable {
+    background-color: red;
+    cursor: not-allowed;
+}
+
+ul.seatCharts-legendList {
+    list-style: none;
+}
+
+li.seatCharts-legendItem {
+    margin-top: 5px;
+    line-height: 2;
+}
+
+.effect .buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*common link styles !!!YOU NEED THEM*/
+
+.effect a {
+    text-decoration: none !important;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 25px;
+    position: relative;
+    visibility: visible;
+}
+
+.effect a i {
+    position: relative;
+    z-index: 3;
+}
+
+.effect a:after {
+    content: attr(title);
+    visibility: hidden;
+    width: 190px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 400;
+    font-size: 18px;
+}
+
+.effect a:nth-child(-n + 4):after {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.effect a:nth-child(n + 5):after {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    justify-content: flex-end;
+}
+
+.effect a.fb {
+    background-color: #3b5998;
+}
+
+.effect a.tw {
+    background-color: #00aced;
+}
+
+.effect a.g-plus {
+    background-color: #dd4b39;
+}
+
+.effect a.dribbble {
+    background-color: #ea4c89;
+}
+
+.effect a.pinterest {
+    background-color: #cb2027;
+}
+
+.effect a.insta {
+    background-color: #bc2a8d;
+}
+
+.effect a.in {
+    background-color: #007bb6;
+}
+
+.effect a.vimeo {
+    background-color: #1ab7ea;
+}
+
+/* aemilius effect */
+.effect.aemilius a {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.effect.aemilius .buttons:hover a:not(:hover) {
+    background-color: #8b8b8b;
+    opacity: 0.2;
+}
+
+.effect.aemilius .buttons:hover a:hover {
+    opacity: 1;
+}
+
+/* mutius effect */
+.effect.mutius a {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    transform-origin: center bottom;
+}
+
+.effect.mutius .buttons:hover a:not(:hover) {
+    transform: scale(0.7);
+}
+
+/* orleans effect */

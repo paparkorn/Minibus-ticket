@@ -1,0 +1,390 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+}
+
+body{
+    /* background-color: azure; */
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: var(--global_font),'Open Sans',Arial,sans-serif;
+    color: #252525;
+    color: var(--modules_color_text);
+    background-color: #ffffff;
+    background-color: var(--modules_color);
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+    -webkit-text-stroke: 1px transparent;
+    margin: 0;
+
+}
+.hTop{
+    overflow: auto;
+    background-color: white;
+    
+}
+
+.cpname h2{
+    order: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-basis: auto;
+    height: 100%;
+    white-space: nowrap;
+    font-family: 'Open Sans',Arial,sans-serif;
+    text-shadow: black 1px 2px;
+}
+
+.leftC {
+    overflow: hidden;
+    float: left;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.cpname{
+    float: left;
+    margin-top: 15px;
+}
+
+.rightC{
+    overflow: auto;
+    float: right;
+    height: 100px;
+    width: 300px;
+}    
+
+.loginBox {
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.loginBox a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.loginBox a:hover, a:active {
+    background-color: red;
+}
+
+.loginBox a {
+    border-radius: 5px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.user_content {
+    width: 300px;
+    overflow: auto;
+}
+
+.user_content .p a{
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.hBtm {
+    overflow: auto;
+    background-color: rgb(130, 130, 130);
+}
+
+.navBar nav ul{
+    list-style-type: none;
+    float: left;
+    padding-left: 0;
+    height: max-content;
+}
+
+.navBar nav ul li{
+    float: left;
+    font-size: 12px;
+    font-size: var(--menu_font_size); 
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 700; 
+    color: #252525; 
+    color: var(--menu_text_color); 
+    letter-spacing: 0.5px; 
+    text-transform: uppercase; 
+}
+
+.navBar a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navBar a:hover, a:active {
+    background-color: red;
+}
+
+.rightCb {
+    float: right;
+    overflow: auto;
+}
+
+.container-location {
+    margin: 25px;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container-location a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container-location a:hover, a:active {
+    background-color: red;
+}
+
+.content-container {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+video {
+    object-fit: fill;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 2;
+    width: 99%;
+    height: 600px;
+}
+
+.overlay-logo {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    z-index: 3;
+    padding-left: 13.5%;
+}
+
+.overlay-logo img{
+    height: 250px;
+    padding-left: 1%;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.overlay-button {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    color: #fff;
+    z-index: 3;
+    padding-left: 17%;
+}
+
+.overlay-button button{
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    background: lawngreen;
+    color: black;
+    margin: 50px auto 0;
+    padding: 16px 30px;
+    cursor: pointer;
+}
+
+.overlay-button button:hover{
+    opacity: 0.6;
+}
+
+.booking-container {
+    width: 100%;
+    height: 200px;
+}
+
+.booking-box {
+    overflow: auto;
+}
+.elem-group {
+    margin: 20px 0;
+}
+
+.elem-group.inlined {
+    display: inline-block;
+    margin-left: 1%;
+}
+
+.services-container{
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    border-top: #252525 solid 2px;
+    background-color: rgb(247 247 247);
+}
+
+.services-container h2{
+    padding-top: 10px;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.services-box{
+    overflow: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    align-items: center;
+    display: flex
+}
+
+.services-c {
+    width: 300px;
+    height: 600px;
+    float: left;
+    margin: 4%;
+    text-align: center;
+    box-shadow: #252525 10px 10px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5%;
+    flex: 1;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+
+.information-article{
+    padding: 10px;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.circular_image {
+    width: 180px;
+    height: 180px;
+    margin: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    display:inline-block;
+    vertical-align:middle;
+    background-color: lightblue;
+}
+.circular_image img{
+    height: 180px;
+    width:100%;
+}
+
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    text-align: left;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+
+fieldset {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 50%;
+}
+
+
+legend {
+    color: var(--text-color)
+}
+
+label {
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.print {
+    color: var(--text-color);
+}
+.info
+{
+    background-color: #a94442;
+}
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.about-us p {
+    line-height: 1.5;
+}
+.footer {
+    background-color:  #f44336;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin: 0 ;
+    padding: 0;
+    position:cover;
+    bottom:0;
+    left:0;
+}
+
+.footer .text {
+    padding: 10px;
+    color: #fff;
+    font-size:18px;
+    margin-top: 20px;
+}
+
+.footer_a {
+    text-decoration: none;
+    color: white;
+}
